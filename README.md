@@ -29,11 +29,11 @@ A company needs to protect its internal network from external threats and monito
 ## Configuration & Screenshots
 
 ### 1. Snort Package Installation
-- Installed Snort 2.9.20 via apt package manager
+- Installed Snort 3.1.82.0 via apt package manager
 - Configured basic installation settings
 - Verified successful installation completion
 
-![Package Installation](Screenshot_2025-08-22_212115.png)
+![Package Installation](snort-package-installation-terminal.png)
 *Snort package installation process and successful setup*
 
 ### 2. Network Configuration
@@ -41,7 +41,7 @@ A company needs to protect its internal network from external threats and monito
 - Set up HOME_NET definition for Snort monitoring
 - Established network segmentation parameters
 
-![Network Configuration](Screenshot_2025-08-22_212053.png)
+![Network Configuration](snort-network-configuration-dialog.png)
 *Network configuration interface showing local network range setup*
 
 ### 3. Rule Structure Understanding
@@ -49,7 +49,7 @@ A company needs to protect its internal network from external threats and monito
 - Understood rule header components (action, protocol, addresses, ports)
 - Examined rule options (msg, sid, rev, content matching)
 
-![Rule Structure](Screenshot_2025-08-22_213638.png)
+![Rule Structure](snort-rule-syntax-breakdown.png)
 *Snort rule structure breakdown and syntax explanation*
 
 ### 4. Custom Rule Creation
@@ -57,7 +57,13 @@ A company needs to protect its internal network from external threats and monito
 - Implemented ICMP detection rule for ping monitoring
 - Configured rule with appropriate SID and revision numbering
 
-![Rule Creation](Screenshot_2025-08-22_214813.png)
+![Rule Creation](custom-icmp-rule-nano-editor.png)
+*Custom rule creation in nano editor showing ICMP detection rule*
+
+![Rule Creation](custom-icmp-rule-nano-editor1.5.png)
+*Custom rule creation in nano editor showing ICMP detection rule*
+
+![Rule Creation](custom-icmp-rule-nano-editor2.png)
 *Custom rule creation in nano editor showing ICMP detection rule*
 
 ### 5. Snort Execution
@@ -66,7 +72,7 @@ A company needs to protect its internal network from external threats and monito
 - Set log directory to /var/log/snort
 - Used production configuration file
 
-![Snort Execution](Screenshot_2025-08-22_215434.png)
+![Snort Execution](snort-command-execution-terminal.png)
 *Snort command execution with console output mode*
 
 ### 6. Real-time Alerting
@@ -75,7 +81,7 @@ A company needs to protect its internal network from external threats and monito
 - Displayed source and destination IP addresses
 - Showed timestamped alert information
 
-![Real-time Alerts](image.png)
+![Real-time Alerts](realtime-ping-detection-alerts.png)
 *Real-time console alerts showing ping detection between hosts*
 
 ### 7. Advanced Rule Implementation
@@ -86,7 +92,7 @@ A company needs to protect its internal network from external threats and monito
   - Malicious IP blocking
   - Lateral movement detection
 
-![Advanced Rules](Screenshot_2025-08-22_224828.png)
+![Advanced Rules](advanced-rule-set-implementation.png)
 *Advanced rule set showing multiple detection categories*
 
 ### 8. Action-Based Rules
@@ -95,7 +101,7 @@ A company needs to protect its internal network from external threats and monito
 - Set up REJECT rules with active responses
 - Created threshold-based rules for rate limiting
 
-![Action Rules](Screenshot_2025-08-22_225425.png)
+![Action Rules](action-based-rules-configuration.png)
 *Action-based rules including pass, drop, and reject actions*
 
 ---
