@@ -120,11 +120,6 @@ A company needs to protect its internal network from external threats and monito
 - **Alert Management**: Handling large volumes of security alerts
 - **Log Management**: Managing and rotating log files efficiently
 
-### Operational Challenges
-- **Rule Testing**: Validating rules without affecting production traffic
-- **Signature Updates**: Maintaining current threat intelligence feeds
-- **Network Changes**: Adapting to network topology changes
-- **Skill Requirements**: Need for specialized Snort administration expertise
 
 ---
 
